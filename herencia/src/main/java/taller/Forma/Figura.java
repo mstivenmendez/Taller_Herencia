@@ -17,4 +17,8 @@ public abstract class Figura {
       this.nombre = nombre;
    }
 
+   public Figura(){
+      
+   }
+
 }

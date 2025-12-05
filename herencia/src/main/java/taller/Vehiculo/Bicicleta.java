@@ -11,6 +11,7 @@ public class Bicicleta extends Vehiculo implements ISonido, IDescribir {
    public void Sonido() {
       JOptionPane.showMessageDialog(null, "Suena la bicicleta ");
    }
+   public Bicicleta() { }
 
    public void Describir() {
       JOptionPane.showMessageDialog(null, "La marca del bicicleta es: " + getMarca() + "\n"

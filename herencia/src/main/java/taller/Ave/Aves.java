@@ -5,7 +5,7 @@ public class Aves {
    String nombre, especie, color;
    int peso;
 
-   
+
 
    public Aves(String nombre, String especie, String color, int peso) {
       this.nombre = nombre;
@@ -38,6 +38,6 @@ public class Aves {
       this.peso = peso;
    }
 
-
+   public Aves (){}
 
 }

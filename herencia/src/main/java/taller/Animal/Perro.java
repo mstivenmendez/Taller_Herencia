@@ -15,4 +15,6 @@ public class Perro extends Animal implements ISonido{
       JOptionPane.showMessageDialog(null, "Woof");
    }
 
+    public Perro(){}
+
 }

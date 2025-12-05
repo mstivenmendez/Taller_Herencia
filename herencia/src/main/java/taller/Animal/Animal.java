@@ -4,6 +4,8 @@ public class Animal {
    String nombre, raza, color;
    int edad, peso;
 
+   public Animal(){}
+
    public String getNombre() {
       return nombre;
    }

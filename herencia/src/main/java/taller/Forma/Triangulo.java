@@ -67,6 +67,8 @@ public class Triangulo extends Figura implements IArea, IPerimetro, IDescribir {
       return (base * altura)/ 2;
    }
 
+   public Triangulo(){}
+
    @Override
    public void Describir() {
       JOptionPane.showMessageDialog(null, " El area de triangulo es: " + CalcularArea());

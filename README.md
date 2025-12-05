@@ -9,7 +9,6 @@ Este proyecto tiene como objetivo aplicar los conceptos fundamentales de la Prog
 - ✔️ Interfaces
 - ✔️ Clases abstractas
 - ✔️ Encapsulamiento
-- ✔️ Colecciones (ArrayList)
 - ✔️ Arreglos (Arrays)
 - ✔️ Manejo de excepciones (try – catch)
 - ✔️ Uso de JOptionPane para interacción con el usuario
@@ -76,9 +75,6 @@ TALLER_HERENCIA/
 │               │   ├── Camion.java
 │               │   ├── Bicicleta.java
 │               │
-│               ├── vista/
-│               │   ├── MenuPrincipal.java
-│               │
 │               ├── Main.java
 │
 ├── resources/
@@ -123,50 +119,6 @@ Bloques `try – catch` aplicados para controlar errores, especialmente en inter
 
 ---
 
-## 🖼️ Interfaz (vista)
-
-La carpeta **vista** contiene el menú principal:
-
-### 📁 vista/MenuPrincipal.java
-
-Este archivo debe contener un menú como:
-
-```java
-JOptionPane.showInputDialog(
-    "===== MENÚ PRINCIPAL =====\n" +
-    "1. Gestión de Animales\n" +
-    "2. Gestión de Vehículos\n" +
-    "3. Figuras Geométricas\n" +
-    "4. Empresa (Empleados/Gerentes)\n" +
-    "5. Dispositivos\n" +
-    "6. Banco\n" +
-    "0. Salir"
-);
-```
-
-Este menú redirige a las clases de cada paquete mediante llamadas al controlador o directamente a métodos específicos.
-
----
-
-## ▶️ Ejecución del Proyecto
-
-El punto de entrada está en:
-
-```
-src/main/java/taller/Main.java
-```
-
-Este archivo debe llamar a la clase MenuPrincipal:
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        MenuPrincipal.mostrar();
-    }
-}
-```
-
----
 
 ## 🧪 Pruebas y Verificación
 

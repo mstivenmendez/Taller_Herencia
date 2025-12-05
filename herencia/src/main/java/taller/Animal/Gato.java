@@ -14,6 +14,8 @@ public class Gato extends Animal implements ISonido {
       JOptionPane.showMessageDialog(null, "Meow");
    }
 
+   public Gato(){}
+
 
 
 }

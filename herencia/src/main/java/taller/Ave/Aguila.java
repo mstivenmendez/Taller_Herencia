@@ -15,6 +15,8 @@ public class Aguila extends Aves implements IAves {
       JOptionPane.showMessageDialog(null, " VOLAR ");
    }
 
+   public Aguila (){}
+
 
 
 

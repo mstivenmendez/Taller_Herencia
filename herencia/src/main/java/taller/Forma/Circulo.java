@@ -21,6 +21,8 @@ public class Circulo extends Figura implements IArea, IPerimetro, IDescribir{
       this.radio = radio;
    }
 
+    public Circulo (){}
+
    @Override
    public double CalcularArea() {
       return Math.PI * Math.pow(radio, 2);

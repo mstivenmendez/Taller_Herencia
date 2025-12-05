@@ -19,7 +19,9 @@ public class Empleado extends Persona{
       this.salario = salario;
    }
 
-   
+   public Empleado(){}
+
+
 
 
 

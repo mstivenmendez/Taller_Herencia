@@ -38,6 +38,8 @@ public class Rectangulo extends Figura implements IArea, IPerimetro, IDescribir{
       return base * altura ;
    }
 
+   public Rectangulo(){}
+
    @Override
    public void Describir() {
       JOptionPane.showMessageDialog(null, " El area de rectangulo es: " + CalcularArea());

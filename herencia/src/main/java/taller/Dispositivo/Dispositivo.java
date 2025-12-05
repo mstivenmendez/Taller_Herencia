@@ -45,6 +45,8 @@ public class Dispositivo {
       this.ram = ram;
    }
 
+   public Dispositivo (){}
+
 
 
 }

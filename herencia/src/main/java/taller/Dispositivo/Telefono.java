@@ -38,6 +38,8 @@ public class Telefono extends Dispositivo implements IDescribir{
       JOptionPane.showMessageDialog(null, " soy un mac ");
    }
 
+   public Telefono (){}
+
 
 
 }

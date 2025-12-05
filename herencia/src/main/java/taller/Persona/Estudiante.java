@@ -11,6 +11,9 @@ public class Estudiante extends Persona{
       this.grado = grado;
    }
 
+   public Estudiante() { }
+
+
    public String getGrado() {
       return grado;
    }

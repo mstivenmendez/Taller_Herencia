@@ -11,6 +11,9 @@ public class Carro extends Vehiculo implements ISonido, IDescribir{
       JOptionPane.showMessageDialog(null, "Suena Bocina");
    }
 
+   public Carro() { }
+
+
    public void Describir() {
       JOptionPane.showMessageDialog(null, "La marca del carro es: " + getMarca() + "\n"
                                        +  "El color del carro es: " + getColor() + "\n"

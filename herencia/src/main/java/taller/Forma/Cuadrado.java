@@ -30,6 +30,8 @@ public class Cuadrado extends Figura implements IArea, IPerimetro,  IDescribir {
       return Math.pow(lado, 2);
    }
 
+   public Cuadrado(){}
+
    @Override
    public void Describir() {
       JOptionPane.showMessageDialog(null, " El area de cuadrado es: " + CalcularArea());
